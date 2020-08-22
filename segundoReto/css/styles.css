@@ -1,0 +1,27 @@
+body {
+    font-size: 10px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    background: skyblue;
+    padding: 10px;
+}
+
+nav {
+    border-bottom: 5px solid red;
+   
+}
+
+ul {
+    padding-left: 15px;
+
+
+}
+
+main {
+    border-bottom: 5px solid red;
+}
+
