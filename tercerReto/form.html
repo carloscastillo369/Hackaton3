@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <main>
+        <h1>formulario</h1> 
+        <form>
+            <fieldset>
+                <legend>Nombre</legend>
+                <input id="primerinput" type="text" placeholder="Nombre" pattern="[a-zA-Z]+" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Apellido</legend>
+                <input id="segundoinput" type="text" placeholder="Apellido" pattern="[a-zA-Z]+" required>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Edad</legend>
+                 <input id="tercerinput" type="number" placeholder="Edad" max="60" min="18" required>  
+            </fieldset>
+
+            <fieldset>
+                <legend>Sexo</legend>
+                <label>masculino</label>
+                <input name="sex" type="radio" placeholder="Sexo" required>
+                <label>femenino</label>
+                <input name="sex" type="radio" placeholder="Sexo" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>DNI</legend>
+                <input id="quintoinput" type="text" maxlength="9" placeholder="DNI" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Email</legend>
+                <input id="sextoinput" type="email" placeholder="Email" required">
+            </fieldset>
+
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+
+
+    </main>
+
+</body>
+</html>

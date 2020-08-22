@@ -1,0 +1,25 @@
+body {
+    text-transform: capitalize;
+    font-family: cursive;
+    background: skyblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+}
+
+fieldset {
+    background: white;
+}
+
+div input {
+    padding: 10px;
+    background:blue;
+    margin-top: 15px;
+    color: white;
+}
