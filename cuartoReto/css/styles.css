@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    margin: 1.6em auto;
+}
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+section {
+    padding-top: 20px;
+}
+
+.hola {
+    height: 400px;
+    background: skyblue;
+    color: white;
+}
+
+.hola h2 {
+    font-size: 50px;
+}
+
+.hola p {
+    padding-top: 100px;
+    padding-left: 20px;
+    font-size: 22px;
+    width: 250px;
+}
+
+h2 + p {
+    align-content: center;
+}
+
+.sobremi {
+    background: slateblue;
+    color: white;
+    padding: 30px;
+}
+
+.sobremi h2 {
+    color: blue;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sobremi p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+p + a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    background:blue;
+    color: white;
+}
+
+.myskill {
+    background:purple;
+}
+
+.myskill div {
+    display:inline-block; 
+    padding-left: 100px;
+    margin-bottom: 40px;
+}
+
+.myskill div input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.portafolio {
+    background:yellowgreen;
+    padding-bottom: 50px;
+}
+
+.portafolio h2 {
+    padding-bottom: 50px;
+}
+
+.portafolio div {
+    padding-left: 120px;
+}
+
+.cliente {
+    background: purple;
+    height: 200px;
+}
+
+.cliente div {
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.contacto {
+    background: skyblue;
+}
+
+form {
+    padding-left: 120px;
+}
+
+#primerinput, #cuartoinput {
+    margin-right: 20px;
+}
+
+#enviar {
+    padding: 8px;
+    margin-left: 150px;
+    background: blue;
+    color: white;
+}
